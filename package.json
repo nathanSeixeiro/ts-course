@@ -1,0 +1,25 @@
+{
+  "name": "ts-course",
+  "version": "1.0.0",
+  "description": "Mini crash course about typescript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanSeixeiro/ts-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanSeixeiro/ts-course/issues"
+  },
+  "homepage": "https://github.com/nathanSeixeiro/ts-course#readme",
+  "devDependencies": {
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  }
+}
