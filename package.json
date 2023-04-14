@@ -4,7 +4,7 @@
   "description": "Mini crash course about typescript",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc ",
+    "dev": "tsx ",
     "build": "tsc"
   },
   "repository": {
