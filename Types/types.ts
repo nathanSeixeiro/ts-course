@@ -30,7 +30,7 @@ isTuple = [1, "tuple", 2]
 /*
 enum {key = value}
   -> used for simplify declaration for example: if we use hexadecimal colors, we should use the next enum
-  */
+*/
   enum Colors {
     white = '#fff',
     black = '#'
@@ -40,13 +40,14 @@ enum {key = value}
   any (anything) 
     -> it's not good choice and is possible blocking this type in at tsconfig.json
     -> it's allow to use any type.
-  */
-  var isAny: any 
-  /*actually doesn't necessarily declare type
+    -> actually you doesn't necessarily declare type
 */
-isAny = 'for example, here its is a 
-isAny = 3
-//now is number
+  
+  var isAny: any 
+  
+
+isAny = 'for example, here its is a string'
+isAny = 3 //now is number
 
 //void (without return in a function)
 function isVoid():void {
