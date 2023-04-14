@@ -73,3 +73,8 @@ isObject ={
   key: "value",
   keyToo: 123
 }
+
+/*
+  Typescript have type inference, if you pass the var value when init them, it automatically understand your type then don't need pass specific type for him
+*/
+var exampleTypeInference = "he automatically recognize as string"
